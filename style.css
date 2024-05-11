@@ -446,14 +446,19 @@ footer .branding {
     display: flex;
 }
 
+footer .branding .logo {
+    height: 40px;
+}
+
 .branding .socials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.socials img {
+footer .branding .socials img {
     width: 30px;
+    height: 30px;
     margin-left: 1rem;
 }
 
